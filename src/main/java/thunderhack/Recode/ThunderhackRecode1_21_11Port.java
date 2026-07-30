@@ -1,4 +1,4 @@
-package org.thunderhack.thunderhackRecode1_21_11Port;
+package thunderhack.Recode;
 
 import net.fabricmc.api.ModInitializer;
 
