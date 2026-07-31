@@ -6,25 +6,45 @@ on:
   pull_request:
     branches: ["main"]
 
+concurrency:
+  group: "latest"
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: read
+      contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-java@v4
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
         with:
-          distribution: temurin
-          java-version: 21
+          java-version: "21"
+          distribution: "zulu"
 
-      - uses: gradle/actions/setup-gradle@v4
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
 
       - name: Make Gradle wrapper executable
-        run: chmod +x gradlew
+        run: chmod +x ./gradlew
 
-      - name: Build
+      - name: Build Minecraft 1.21.11 mod
         run: ./gradlew build
+
+      - name: Remove sources jar
+        run: rm -f ./build/libs/*-sources.jar
+
+      - name: Release latest build
+        uses: 0xDylan/action-auto-releases-n20@v1.1
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: false
+          title: "Latest Build (Minecraft 1.21.11)"
+          files: |
+            ./build/libs/*.jar
