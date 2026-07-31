@@ -1,10 +1,9 @@
 <p align="center">
-    <img src="assets/1.png" style="width: 69%">
+    <img src="assets/1.png" style="width: 75%">
 </p>
 
 > [!WARNING]
-> Work on ThunderHack Recode is completely stopped, 
-> it will be the Fan Port (1.21.11)
+> It is the Fan Port (1.21.11)
 
 ## Information
 
@@ -22,6 +21,7 @@
 ## Screenshots
 <details>
 <summary>GUI</summary>
-
+</details>
+<details>
 <summary>PVP</summary>
 </details>
