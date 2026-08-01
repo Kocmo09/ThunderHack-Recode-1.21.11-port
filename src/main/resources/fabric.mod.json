@@ -1,50 +1,35 @@
 {
   "schemaVersion": 1,
-  "id": "thunderhack",
-  "version": "1.7",
+  "id": "untitled",
+  "version": "${version}",
+  "name": "thunderhack",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0",
   "icon": "icon.png",
-  "name": "ThunderHack",
-  "description": "Player Assistance Mod",
-  "authors": [
-    {
-      "name": "pan4ur",
-      "contact": {
-        "discord": "pan4ur"
-      }
-    },
-    {
-      "name": "06ED",
-      "contact": {
-        "discord": "dinner_enjoyer"
-      }
-    }
-  ],
-  "license": "GNU General Public License v3.0",
-  "accessWidener": "thunderhack.accesswidener",
   "environment": "client",
   "entrypoints": {
+    "fabric-datagen": [
+      "thunderhack.client.thunderhackDataGenerator"
+    ],
+    "client": [
+      "thunderhack.client.thunderhackClient"
+    ],
     "main": [
-      "thunder.hack.ThunderHack"
+      "thunderhack"
     ]
   },
-  "contact": {
-    "sources": "https://github.com/Pan4ur/ThunderHack-Recode",
-    "homepage": "https://thunderhack-site.vercel.app",
-    "issues": "https://github.com/Pan4ur/ThunderHack-Recode/issues"
-  },
   "mixins": [
-    "thunderhack.mixins.json"
+    "thunderhack.mixins.json",
+    {
+      "config": "resources/thunderhack.client.mixins.json",
+      "environment": "client"
+    }
   ],
   "depends": {
-    "fabricloader": ">=0.15.11",
-    "minecraft": "~1.21",
-    "java": ">=21"
-  },
-  "suggests": {
-    "sodium": "*",
-    "exordium": "*",
-    "starlight": "*",
-    "ias": "*",
-    "viafabricplus": "*"
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
   }
 }
