@@ -23,7 +23,7 @@
   "mixins": [
     "thunderhack.mixins.json",
     {
-      "config": "resources/thunderhack.client.mixins.json",
+      "config": "thunderhack.client.mixins.json",
       "environment": "client"
     }
   ],
