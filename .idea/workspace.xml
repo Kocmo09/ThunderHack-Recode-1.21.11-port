@@ -4,13 +4,717 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dae44c7-6d2c-4e76-bc31-39e675b008e5" name="Changes" comment="" />
+    <list default="true" id="9dae44c7-6d2c-4e76-bc31-39e675b008e5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/args/CategoryArgumentType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/args/CfgArgumentType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/args/CfgModeType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/args/ChestStealerArgumentType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/args/FriendArgumentType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/args/MacroArgumentType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/args/ModuleArgumentType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/args/PlayerArgumentType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/args/SearchArgumentType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/args/SettingArgumentType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/args/WayPointArgumentType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/AddonsCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/BenchMarkCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/BindCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/BlockESPCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/CalcCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/CfgCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/ChestStealerCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/DrawCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/DropAllCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/EClipCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/FriendCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/GamemodeCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/GarbageCleanerCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/GetNbtCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/GotoWaypointCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/GpsCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/HClipCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/HelpCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/HorseSpeedCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/InvCleanerCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/KitCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/LoginCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/MacroCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/ModuleCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/NukerCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/OpenFolderCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/PrefixCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/RctCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/ResetBindsCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/RpcCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/StaffCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/TabParseCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/TrackerCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/TreasureCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/VClipCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/cmd/impl/WayPointCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/HudElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/ArmorHud.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/AutoCrystalInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/CandleHud.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/ChestCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/Companion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/Cooldowns.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/Coords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/Crosshair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/CrosshairArrows.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/FpsCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/GapplesHud.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/Hotbar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/KeyBinds.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/KillFeed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/KillStats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/LegacyHud.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/MemoryHud.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/ModuleList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/PVPResources.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/Particles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/PingHud.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/PotionHud.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/Radar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/RadarRewrite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/Speedometer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/StaffBoard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/TPSCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/TargetHud.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/TimerIndicator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/TotemCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/hud/impl/WaterMark.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/Module.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/base/PlaceModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/base/TrapModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/client/AntiCrash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/client/AntiPacketException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/client/AntiServerAdd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/client/AntiServerRP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/client/BaritoneSettings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/client/ChatTranslator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/client/ClickGui.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/client/ClientSettings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/client/ClientSpoof.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/client/FastLatency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/client/HudEditor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/client/Media.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/client/Notifications.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/client/OptifineCapes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/client/RPC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/client/Rotations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/client/SoundFX.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/client/ThunderHackGui.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/client/UnHook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/client/WayPoints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/client/Windows.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/AimBot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/AntiBot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/AntiLegitMiss.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/Aura.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/AutoAnchor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/AutoAnvil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/AutoBed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/AutoBuff.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/AutoCrystal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/AutoCrystalBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/AutoGApple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/AutoTotem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/AutoTrap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/AutoWeb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/Blocker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/BowPop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/BowSpam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/Breaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/Burrow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/Criticals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/HitBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/HoleFill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/LegitHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/MoreKnockback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/PistonAura.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/PistonPush.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/Quiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/Reach.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/SelfTrap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/Surround.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/TNTAura.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/TargetStrafe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/combat/TriggerBot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/AntiAFK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/AntiAttack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/AutoAuth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/AutoDuel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/AutoEZ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/AutoFish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/AutoFlyme.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/AutoGear.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/AutoLeave.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/AutoSign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/AutoSoup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/AutoTpAccept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/AutoTrader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/ChatUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/ChestStealer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/ChorusExploit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/EbatteSratte.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/ExtraTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/FakePlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/Ghost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/ItemScroller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/LagNotifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/MessageAppend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/MiddleClick.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/NameProtect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/NoCommentExploit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/Nuker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/PVETools.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/PacketCanceler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/PearlChaser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/ServerHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/Spammer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/StashLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/TapeMouse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/TotemPopCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/Tracker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/misc/VisualRange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/AntiVoid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/AntiWeb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/AutoSprint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/AutoWalk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/Avoid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/Blink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/BoatFly.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/ClickTP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/ElytraPlus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/ElytraRecast.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/EntityControl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/EntitySpeed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/Flight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/GuiMove.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/HoleAnchor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/HoleSnap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/Jesus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/LevitationControl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/LongJump.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/NoFall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/NoPush.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/NoSlow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/NoWaterCollision.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/PacketFly.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/Parkour.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/Phase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/ReverseStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/SafeWalk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/Scaffold.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/Speed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/Spider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/Step.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/Strafe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/TickShift.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/Timer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/TridentBoost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/Velocity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/movement/WaterSpeed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/AirPlace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/AntiAim.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/AntiBadEffects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/AntiBallPlace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/AntiHunger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/AutoArmor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/AutoEat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/AutoRespawn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/AutoSex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/AutoTool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/DurabilityAlert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/ElytraReplace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/ElytraSwap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/FastUse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/HotbarReplenish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/InventoryCleaner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/MouseElytraFix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/MultiTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/NoEntityTrace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/NoInteract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/NoJumpDelay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/NoServerRotate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/NoServerSlot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/PearlBait.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/PearlBlockThrow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/PerfectDelay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/PortalGodMode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/PortalInventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/Regen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/SpeedMine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/ToolSaver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/TpsSync.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/ViewLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/player/XCarry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/Animations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/AspectRatio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/BlockESP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/BlockHighLight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/BreadCrumbs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/BreakHighLight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/Chams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/DamageTint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/ESP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/FOV.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/FreeCam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/Fullbright.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/HitBubbles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/HitParticles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/HoleESP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/ItemESP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/JumpCircle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/KillEffect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/LogoutSpots.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/NameTags.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/NoBob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/NoCameraClip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/NoRender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/Particles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/PenisESP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/PopChams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/Shaders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/Skeleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/SoundESP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/StorageEsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/Tooltips.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/TotemAnimation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/Tracers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/Trails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/Trajectories.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/TunnelEsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/ViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/VoidESP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/WorldTweaks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/features/modules/render/XRay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/clickui/AbstractButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/clickui/AbstractCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/clickui/AbstractElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/clickui/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/clickui/ClickGUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/clickui/ModuleButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/clickui/impl/BindElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/clickui/impl/BooleanElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/clickui/impl/BooleanParentElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/clickui/impl/ColorPickerElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/clickui/impl/ItemSelectElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/clickui/impl/ModeElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/clickui/impl/ParentElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/clickui/impl/SearchBar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/clickui/impl/SliderElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/clickui/impl/StringElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/font/FontRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/font/FontRenderers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/font/Glyph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/font/GlyphMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/font/Texture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/hud/HudEditorGui.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/mainmenu/CreditsScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/mainmenu/MainMenuButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/mainmenu/MainMenuScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/misc/DialogScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/misc/GuiScanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/misc/PeekScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/notification/Notification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/thundergui/ThunderGui.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/thundergui/components/BooleanComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/thundergui/components/BooleanParentComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/thundergui/components/CategoryPlate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/thundergui/components/ColorPickerComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/thundergui/components/ConfigComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/thundergui/components/FriendComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/thundergui/components/ModeComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/thundergui/components/ModulePlate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/thundergui/components/ParentComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/thundergui/components/SettingElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/thundergui/components/SliderComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/windows/WindowBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/windows/WindowsScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/windows/impl/ConfigWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/windows/impl/FriendsWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/windows/impl/ItemSelectWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/windows/impl/MacroWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/windows/impl/ProxyWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/gui/windows/impl/WaypointWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/thunderhackClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/thunderhackDataGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/OptifineCapes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/ThunderUtility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/TickTimer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/Timer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/discord/DiscordEventHandlers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/discord/DiscordRPC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/discord/DiscordRichPresence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/discord/DiscordUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/discord/callbacks/DisconnectedCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/discord/callbacks/ErroredCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/discord/callbacks/JoinGameCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/discord/callbacks/JoinRequestCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/discord/callbacks/ReadyCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/discord/callbacks/SpectateGameCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/discord/helpers/RPCButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/interfaces/ICrystal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/interfaces/IEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/interfaces/IEntityLiving.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/interfaces/IOtherClientPlayerEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/interfaces/IShaderEffect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/math/FrameRateCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/math/MathUtility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/math/PredictUtility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/player/InteractionUtility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/player/InventoryUtility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/player/MovementUtility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/player/PlayerEntityCopy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/player/PlayerUtility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/player/SearchInvResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/BlockAnimationUtility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/GaussianFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/MSAAFramebuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/Render2DEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/Render3DEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/TextUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/TextureStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/WindowResizeCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/animation/AnimationUtility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/animation/CaptureMark.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/animation/EaseOutBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/animation/EaseOutCirc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/animation/GearAnimation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/ArcShader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/BlurProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/HudShader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/MainMenuProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/RectangleShader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/TextureColorProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/satin/api/managed/ManagedCoreShader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/satin/api/managed/ManagedFramebuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/satin/api/managed/ManagedShaderEffect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/satin/api/managed/ShaderEffectManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/satin/api/managed/uniform/SamplerUniform.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/satin/api/managed/uniform/SamplerUniformV2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/satin/api/managed/uniform/Uniform1f.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/satin/api/managed/uniform/Uniform1i.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/satin/api/managed/uniform/Uniform2f.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/satin/api/managed/uniform/Uniform2i.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/satin/api/managed/uniform/Uniform3f.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/satin/api/managed/uniform/Uniform3i.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/satin/api/managed/uniform/Uniform4f.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/satin/api/managed/uniform/Uniform4i.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/satin/api/managed/uniform/UniformFinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/satin/api/managed/uniform/UniformMat4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/satin/impl/FramebufferWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/satin/impl/ManagedSamplerUniformBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/satin/impl/ManagedSamplerUniformV1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/satin/impl/ManagedSamplerUniformV2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/satin/impl/ManagedUniform.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/satin/impl/ManagedUniformBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/satin/impl/ReloadableShaderEffectManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/satin/impl/ResettableManagedCoreShader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/satin/impl/ResettableManagedShaderBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/satin/impl/ResettableManagedShaderEffect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/render/shaders/satin/impl/SamplerAccess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/world/ExplosionUtility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/client/utility/world/HoleUtility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/core/Core.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/core/Managers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/core/manager/IManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/core/manager/client/AddonManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/core/manager/client/AsyncManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/core/manager/client/CommandManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/core/manager/client/ConfigManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/core/manager/client/MacroManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/core/manager/client/ModuleManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/core/manager/client/NotificationManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/core/manager/client/ProxyManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/core/manager/client/ServerManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/core/manager/client/ShaderManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/core/manager/client/SoundManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/core/manager/client/TelemetryManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/core/manager/player/CombatManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/core/manager/player/FriendManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/core/manager/player/PlayerManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/core/manager/world/CrystalManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/core/manager/world/HoleManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/core/manager/world/WayPointManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/Event.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/ClientClickEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventAfterRotate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventAttack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventAttackBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventBreakBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventClickSlot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventCollision.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventDeath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventEatFood.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventEntityRemoved.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventEntitySpawn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventEntitySpawnPost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventFixVelocity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventFluidCollision.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventHandleBlockBreaking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventHeldItemRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventKeyPress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventKeyRelease.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventKeyboardInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventMouse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventMove.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventPlaceBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventPlayerJump.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventPlayerTravel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventPostSync.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventPostTick.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventSetBlockState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventSetting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventSprint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventSync.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventTick.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/EventTravel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/PacketEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/PlayerUpdateEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/PostPlayerUpdateEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/TotemPopEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/events/impl/UseTridentEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/setting/Setting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/setting/impl/Bind.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/setting/impl/BooleanSettingGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/setting/impl/ColorSetting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/setting/impl/EnumConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/setting/impl/ItemSelectSetting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/setting/impl/PositionSetting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thunderhack/setting/impl/SettingGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack.client.mixins.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/thunderhack.mixins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/fonts/comfortaa.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/fonts/glitched.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/fonts/icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/fonts/monsterrat.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/fonts/profont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/fonts/sf_bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/fonts/sf_medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/lang/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/lang/de_de.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/lang/en_us.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/lang/es_ar.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/lang/es_cl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/lang/es_ec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/lang/es_es.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/lang/es_mx.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/lang/es_uy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/lang/es_ve.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/lang/ru_ru.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/lang/uk_ua.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/core/arc.fsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/core/arc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/core/blur.fsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/core/blur.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/core/hudshader.fsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/core/hudshader.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/core/mainmenu.fsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/core/mainmenu.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/core/mainmenu2.fsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/core/mainmenu3.fsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/core/position_tex_color2.fsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/core/position_tex_color2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/core/position_tex_color2.vsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/core/rectangle.fsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/core/rectangle.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/post/fade.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/post/gradient.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/post/outline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/post/smoke.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/post/snow.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/program/fade.fsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/program/fade.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/program/gradient.fsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/program/gradient.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/program/outline.fsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/program/outline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/program/smoke.fsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/program/smoke.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/program/snow.fsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/shaders/program/snow.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/sounds.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/sounds/boolean.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/sounds/cutie.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/sounds/disable.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/sounds/enable.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/sounds/keypress.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/sounds/keyrelease.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/sounds/moan1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/sounds/moan2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/sounds/moan3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/sounds/moan4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/sounds/orthodox.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/sounds/pmsound.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/sounds/rifk.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/sounds/scroll.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/sounds/skeet.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/sounds/swipein.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/sounds/swipeout.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/sounds/uwu.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/capes/bkgroup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/capes/dev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/capes/fbgroup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/capes/starcape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/capes/tester.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/elements/arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/elements/clickgui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/elements/configpng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/elements/cracked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/elements/donationalerts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/elements/friendmanagericon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/elements/loadpng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/elements/macrosicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/elements/modulegear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/elements/th.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/elements/thteam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/elements/trashbin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/elements/waypointicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/headers/client.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/headers/combat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/headers/hud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/headers/misc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/headers/movement.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/headers/player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/headers/render.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/headers/stock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/helper/pic1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/helper/pic2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/helper/pic3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/images/bat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/images/bdsm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/images/cutie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/images/cutie2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/images/gacha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/images/nft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/images/nya.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/images/smile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/gui/images/thousand_seven.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/hud/elements/baltika.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/hud/elements/boykisser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/hud/elements/broken_shield.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/hud/elements/candle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/hud/elements/capture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/hud/elements/container.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/hud/elements/kowk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/hud/elements/lag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/hud/elements/paimon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/hud/elements/skull.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/hud/elements/thud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/hud/elements/triangle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/hud/elements/waypoint.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/hud/icons/chest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/hud/icons/coords.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/hud/icons/fps.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/hud/icons/memory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/hud/icons/mini_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/hud/icons/ping.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/hud/icons/proxy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/hud/icons/server.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/hud/icons/speedometer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/hud/icons/sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/hud/icons/tps.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/misc/end_crystal2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/misc/sunskin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/particles/circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/particles/dollar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/particles/end_crystal2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/particles/firefly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/particles/heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/particles/hitbubble.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/particles/snowflake.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/particles/star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thunderhack/textures/particles/sunskin.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ThunderHack-Recode-1.21.11-port" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3HJZxc3PWnuiQQxN3CmnHIydrFT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.258" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.258" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9dae44c7-6d2c-4e76-bc31-39e675b008e5" name="Changes" comment="" />
+      <created>1785588381425</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1785588381425</updated>
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
